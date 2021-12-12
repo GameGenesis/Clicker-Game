@@ -1,2 +1,2 @@
 # Clicker-Game
-Clicker Game made in One Hour
+Clicker Game made in One Day
