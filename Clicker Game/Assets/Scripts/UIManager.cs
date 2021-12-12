@@ -13,6 +13,11 @@ public class UIManager : MonoBehaviour
         gameManager.onScoreChanged += UpdateScore;
     }
 
+    private void OnDestroy()
+    {
+        gameManager.onScoreChanged -= UpdateScore;
+    }
+
     public void UpdateScore(int value)
     {
         if (scoreText != null)
