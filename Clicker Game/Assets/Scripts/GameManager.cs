@@ -36,6 +36,11 @@ public class GameManager : MonoBehaviour
         onScoreChanged?.Invoke(Score);
     }
 
+    public void IncreaseClickValue(int value)
+    {
+        ClickValue += value;
+    }
+
     public void Save()
     {
         PlayerPrefs.SetInt("Score", Score);
