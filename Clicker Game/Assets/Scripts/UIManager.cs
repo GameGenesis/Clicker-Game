@@ -5,6 +5,7 @@ public class UIManager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private GameObject upgradePanel;
+    [SerializeField] private Upgrade[] upgrades;
 
     private GameManager gameManager;
 
