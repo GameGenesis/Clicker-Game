@@ -1092,7 +1092,7 @@ AudioSource:
   m_GameObject: {fileID: 1224608550}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 39596d02034dfcc48a0d98d7a55dad01, type: 2}
+  OutputAudioMixerGroup: {fileID: 7907297512555436104, guid: 39596d02034dfcc48a0d98d7a55dad01, type: 2}
   m_audioClip: {fileID: 8300000, guid: d899edeb1c047d247b9e4cd73f1400fb, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
@@ -1372,6 +1372,8 @@ MonoBehaviour:
   mixer: {fileID: 24100000, guid: 39596d02034dfcc48a0d98d7a55dad01, type: 2}
   volumeParameters: []
   sliders: []
+  toggles: []
+  multiplier: 30
 --- !u!1 &1623032742
 GameObject:
   m_ObjectHideFlags: 0
@@ -1512,7 +1514,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1697394832
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1717,7 +1719,7 @@ GameObject:
   - component: {fileID: 1757981753}
   - component: {fileID: 1757981752}
   m_Layer: 5
-  m_Name: Cursor Image
+  m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1762,7 +1764,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e50e4e3bb6b79ff4cb24e245dba8bdaf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0e777c545e018c04181ff4517cfe8922, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

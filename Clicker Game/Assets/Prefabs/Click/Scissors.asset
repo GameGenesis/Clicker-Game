@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fbf47da7145dab45ab6882526fed7e1, type: 3}
   m_Name: Scissors
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 937531d1449604346979ec91ed3a9572, type: 3}
   cost: 1100
   costIncreaseMultiplier: 1.2
   upgradeType: 0

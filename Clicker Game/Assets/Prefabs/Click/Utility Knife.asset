@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fbf47da7145dab45ab6882526fed7e1, type: 3}
   m_Name: Utility Knife
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 0e777c545e018c04181ff4517cfe8922, type: 3}
   cost: 12000
   costIncreaseMultiplier: 1.2
   upgradeType: 0
